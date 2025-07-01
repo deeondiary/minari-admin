@@ -271,6 +271,9 @@
   color: var(--color-text-disabled) !important;
 }
 
+.txt-00 {
+  color: black !important;
+}
 .txt-inverse-gray {
   color: var(--gray-400) !important;
 }
@@ -295,6 +298,12 @@
 }
 .mg-left-13 {
   margin-left: 13px;
+}
+.mg-left-80 {
+  margin-left: 80px;
+}
+.mg-left-100 {
+  margin-left: 100px;
 }
 
 .mg-right-4 {
@@ -326,6 +335,9 @@
 .mg-top-8 {
   margin-top: 8px;
 }
+.mg-top-10 {
+  margin-top: 10px;
+}
 .mg-top-16 {
   margin-top: 16px;
 }
@@ -352,6 +364,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.fx-align-start {
+  display: flex;
+  align-items: center;
 }
 .fx-align-center {
   display: flex;

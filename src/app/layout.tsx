@@ -1,5 +1,6 @@
 import './globals.css';
 import './common.css';
+import LayoutWrapper from '@/components/LayoutWrapper';
 
 export default function RootLayout({
   children,
@@ -7,14 +8,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
-      <head>
+    <html title="" lang="ko">
+      <head title="">
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <LayoutWrapper>{children}</LayoutWrapper>
+      </body>
     </html>
   );
 }
