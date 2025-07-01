@@ -1,0 +1,15 @@
+.container-hide {
+    display: none !important;
+}
+
+.container {
+    border-right: 1px solid #f5f5f5;
+    width: 144px;
+    padding: 16px;
+}
+
+.buttons__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

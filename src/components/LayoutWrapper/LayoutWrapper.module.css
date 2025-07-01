@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    min-height: 100dvh;
+    min-width: 100dvw;
+}
+
+.contents {
+    width: 100%;
+}

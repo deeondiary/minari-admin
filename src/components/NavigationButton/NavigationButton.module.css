@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    padding: var(--spacing-8, 8px) var(--spacing-12, 12px);
+    align-items: center;
+    gap: var(--spacing-8, 8px);
+    border-radius: var(--border-radius-lg, 8px);
+    background-color: var(--color-bg-primary, #FFF);
+    cursor: pointer;
+    color: var(--color-text-interactive-secondary);
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: var(--color-bg-interactive-secondary-hovered, #FFF);
+}
+
+.button:active {
+    background-color: var(--color-bg-interactive-secondary-pressed, #FFF);
+}
